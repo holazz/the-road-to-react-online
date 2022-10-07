@@ -5,3 +5,7 @@
 html:not(.dark) .vp-doc img {
   background-color: #fff;
 }
+
+.VPNav a.title {
+  pointer-events: none;
+}
