@@ -8,6 +8,14 @@ const langAliasMap = {
   text: 'bash',
 }
 
+const getLang = (title: string, lang: string) => {
+  const invalidTypeReg = /svg/
+  const type = extname(title).replace(/^\.(.+)$/, '$1')
+  return invalidTypeReg.test(type) || title === 'Code Playground'
+    ? langAliasMap[lang] || lang
+    : type || 'bash'
+}
+
 export const codeBlockPlugin = (md: MarkdownIt) => {
   const fence = md.renderer.rules.fence!
   md.renderer.rules.fence = (...args) => {
@@ -44,7 +52,7 @@ export const codeBlockPlugin = (md: MarkdownIt) => {
       .trim()
       .match(/^{title="(.*)",lang="(.*)"}$/)!
 
-    token.info = extname(title).replace(/^\.(.+)$/, '$1') || langAliasMap[lang]
+    token.info = getLang(title, lang)
 
     const rawCode = fence(...args)
 
