@@ -1,0 +1,264 @@
+[
+  {
+    "text": "Foreword",
+    "link": "/manuscript/foreword.md",
+    "items": [
+      {
+        "text": "About the Author",
+        "link": "/manuscript/intro.md"
+      }
+    ]
+  },
+  {
+    "text": "Fundamentals of React",
+    "link": "/manuscript/react-modern/fundamentals-of-react.md",
+    "items": [
+      {
+        "text": "Hello React",
+        "link": "/manuscript/react-modern/hello-react.md"
+      },
+      {
+        "text": "Requirements",
+        "link": "/manuscript/react-modern/requirements.md"
+      },
+      {
+        "text": "Setting up a React Project",
+        "link": "/manuscript/react-modern/setup.md"
+      },
+      {
+        "text": "Meet the React Component",
+        "link": "/manuscript/react-modern/meet-the-react-component.md"
+      },
+      {
+        "text": "React JSX",
+        "link": "/manuscript/react-modern/jsx.md"
+      },
+      {
+        "text": "Lists in React",
+        "link": "/manuscript/react-modern/lists.md"
+      },
+      {
+        "text": "Meet another React Component",
+        "link": "/manuscript/react-modern/meet-another-react-component.md"
+      },
+      {
+        "text": "React Component Instantiation",
+        "link": "/manuscript/react-modern/component-instantiation.md"
+      },
+      {
+        "text": "React DOM",
+        "link": "/manuscript/react-modern/react-dom.md"
+      },
+      {
+        "text": "React Component Declaration",
+        "link": "/manuscript/react-modern/component-definition.md"
+      },
+      {
+        "text": "Handler Function in JSX",
+        "link": "/manuscript/react-modern/handler-function.md"
+      },
+      {
+        "text": "React Props",
+        "link": "/manuscript/react-modern/props.md"
+      },
+      {
+        "text": "React State",
+        "link": "/manuscript/react-modern/state.md"
+      },
+      {
+        "text": "Callback Handlers in JSX",
+        "link": "/manuscript/react-modern/callback-handlers.md"
+      },
+      {
+        "text": "Lifting State in React",
+        "link": "/manuscript/react-modern/lifting-state.md"
+      },
+      {
+        "text": "React Controlled Components",
+        "link": "/manuscript/react-modern/controlled-components.md"
+      },
+      {
+        "text": "Props Handling (Advanced)",
+        "link": "/manuscript/react-modern/props-handling.md"
+      },
+      {
+        "text": "React Side-Effects",
+        "link": "/manuscript/react-modern/side-effects.md"
+      },
+      {
+        "text": "React Custom Hooks (Advanced)",
+        "link": "/manuscript/react-modern/custom-hooks.md"
+      },
+      {
+        "text": "React Fragments",
+        "link": "/manuscript/react-modern/fragments.md"
+      },
+      {
+        "text": "Reusable React Component",
+        "link": "/manuscript/react-modern/reusable-components.md"
+      },
+      {
+        "text": "React Component Composition",
+        "link": "/manuscript/react-modern/component-composition.md"
+      },
+      {
+        "text": "Imperative React",
+        "link": "/manuscript/react-modern/imperative.md"
+      },
+      {
+        "text": "Inline Handler in JSX",
+        "link": "/manuscript/react-modern/inline-handler.md"
+      },
+      {
+        "text": "React Asynchronous Data",
+        "link": "/manuscript/react-modern/asynchronous-data.md"
+      },
+      {
+        "text": "React Conditional Rendering",
+        "link": "/manuscript/react-modern/conditional-rendering.md"
+      },
+      {
+        "text": "React Advanced State",
+        "link": "/manuscript/react-modern/advanced-state.md"
+      },
+      {
+        "text": "React Impossible States",
+        "link": "/manuscript/react-modern/impossible-state.md"
+      },
+      {
+        "text": "Data Fetching with React",
+        "link": "/manuscript/react-modern/data-fetching.md"
+      },
+      {
+        "text": "Data Re-Fetching in React",
+        "link": "/manuscript/react-modern/data-re-fetching.md"
+      },
+      {
+        "text": "Memoized Functions in React (Advanced)",
+        "link": "/manuscript/react-modern/memoized-handler.md"
+      },
+      {
+        "text": "Explicit Data Fetching with React",
+        "link": "/manuscript/react-modern/explicit-data-fetching.md"
+      },
+      {
+        "text": "Third-Party Libraries in React",
+        "link": "/manuscript/react-modern/third-party-libraries.md"
+      },
+      {
+        "text": "Async/Await in React",
+        "link": "/manuscript/react-modern/async-await.md"
+      },
+      {
+        "text": "Forms in React",
+        "link": "/manuscript/react-modern/forms.md"
+      }
+    ]
+  },
+  {
+    "text": "A Roadmap for React",
+    "link": "/manuscript/react-roadmap/react-roadmap.md"
+  },
+  {
+    "text": "React's Legacy",
+    "link": "/manuscript/react-legacy/react-legacy.md",
+    "items": [
+      {
+        "text": "React Class Components",
+        "link": "/manuscript/react-legacy/class-components.md"
+      },
+      {
+        "text": "React Class Components: State",
+        "link": "/manuscript/react-legacy/class-components-sate.md"
+      },
+      {
+        "text": "Imperative React",
+        "link": "/manuscript/react-legacy/imperative-react.md"
+      }
+    ]
+  },
+  {
+    "text": "Styling in React",
+    "link": "/manuscript/react-styling/styling-in-react.md",
+    "items": [
+      {
+        "text": "CSS in React",
+        "link": "/manuscript/react-styling/css.md"
+      },
+      {
+        "text": "CSS Modules in React",
+        "link": "/manuscript/react-styling/css-modules.md"
+      },
+      {
+        "text": "Styled Components in React",
+        "link": "/manuscript/react-styling/styled-components.md"
+      },
+      {
+        "text": "SVGs in React",
+        "link": "/manuscript/react-styling/svg.md"
+      }
+    ]
+  },
+  {
+    "text": "React Maintenance",
+    "link": "/manuscript/react-maintenance/react-maintenance.md",
+    "items": [
+      {
+        "text": "Performance in React (Advanced)",
+        "link": "/manuscript/react-maintenance/performance.md"
+      },
+      {
+        "text": "TypeScript in React",
+        "link": "/manuscript/react-maintenance/typescript.md"
+      },
+      {
+        "text": "Testing in React",
+        "link": "/manuscript/react-maintenance/testing.md"
+      },
+      {
+        "text": "React Project Structure",
+        "link": "/manuscript/react-maintenance/project-structure.md"
+      }
+    ]
+  },
+  {
+    "text": "Real World React (Advanced)",
+    "link": "/manuscript/react-modern-advanced/real-world-react-(advanced).md",
+    "items": [
+      {
+        "text": "Sorting",
+        "link": "/manuscript/react-modern-advanced/sorting.md"
+      },
+      {
+        "text": "Reverse Sort",
+        "link": "/manuscript/react-modern-advanced/reverse-sort.md"
+      },
+      {
+        "text": "Remember Last Searches",
+        "link": "/manuscript/react-modern-advanced/remember-last-searches.md"
+      },
+      {
+        "text": "Paginated Fetch",
+        "link": "/manuscript/react-modern-advanced/paginated-fetch.md"
+      }
+    ]
+  },
+  {
+    "text": "Deploying a React Application",
+    "link": "/manuscript/react-deploy/deploying-a-react-application.md",
+    "items": [
+      {
+        "text": "Build Process",
+        "link": "/manuscript/react-deploy/build.md"
+      },
+      {
+        "text": "Deploy to Firebase",
+        "link": "/manuscript/react-deploy/firebase.md"
+      }
+    ]
+  },
+  {
+    "text": "Outline",
+    "link": "/manuscript/outline.md"
+  }
+]

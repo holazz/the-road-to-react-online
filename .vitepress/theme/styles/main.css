@@ -1,0 +1,7 @@
+.dark .vp-doc img {
+  background-color: #f3f3f3;
+}
+
+html:not(.dark) .vp-doc img {
+  background-color: #fff;
+}
