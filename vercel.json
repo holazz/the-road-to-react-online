@@ -1,3 +1,3 @@
 {
-  "redirects": [{ "source": "/", "destination": "/manuscript/foreword" }]
+  "redirects": [{ "source": "/", "destination": "/manuscript/foreword.html" }]
 }

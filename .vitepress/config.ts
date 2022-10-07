@@ -6,7 +6,6 @@ import sidebar from './sidebar.json'
 export default defineConfig({
   title: 'The road to React',
   lastUpdated: true,
-  cleanUrls: 'without-subfolders',
   markdown: {
     theme: {
       light: 'dark-plus',
