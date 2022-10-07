@@ -7,10 +7,7 @@ export default defineConfig({
   title: 'The road to React',
   lastUpdated: true,
   markdown: {
-    theme: {
-      light: 'dark-plus',
-      dark: 'dark-plus',
-    },
+    theme: 'dark-plus',
     config: (md) => {
       md.use(codeBlockPlugin)
       md.use(imageLinkPlugin)
