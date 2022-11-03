@@ -25,5 +25,10 @@ export default defineConfig({
         link: 'https://github.com/holazz/the-road-to-react-online',
       },
     ],
+    algolia: {
+      appId: 'P0P9JQJWXR',
+      apiKey: 'bcd5b796cfbb206cc5bb5adf01f1bd16',
+      indexName: 'the-road-to-react-online',
+    },
   },
 })
