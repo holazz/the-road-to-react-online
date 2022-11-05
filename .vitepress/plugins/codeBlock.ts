@@ -28,11 +28,11 @@ export const codeBlockPlugin = (md: MarkdownIt) => {
     const lines = token.content.split('\n')
     token.content = lines
       .filter((line, index) => {
-        if (lines[index - 1] === '# leanpub-start-insert') {
+        if (lines[index - 1]?.trim() === '# leanpub-start-insert') {
           needHighlight = true
           flagLineCount++
         }
-        if (line === '# leanpub-end-insert') {
+        if (line?.trim() === '# leanpub-end-insert') {
           needHighlight = false
           flagLineCount++
         }
@@ -40,7 +40,7 @@ export const codeBlockPlugin = (md: MarkdownIt) => {
           highlightLines.push(index - flagLineCount + 1)
         }
         return !['# leanpub-start-insert', '# leanpub-end-insert'].includes(
-          line
+          line?.trim()
         )
       })
       .join('\n')
