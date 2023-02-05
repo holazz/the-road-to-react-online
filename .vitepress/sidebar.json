@@ -34,6 +34,10 @@
         "link": "/manuscript/react-modern/jsx.md"
       },
       {
+        "text": "Linting with ESLint (Optional)",
+        "link": "/manuscript/react-modern/lint.md"
+      },
+      {
         "text": "Lists in React",
         "link": "/manuscript/react-modern/lists.md"
       },
