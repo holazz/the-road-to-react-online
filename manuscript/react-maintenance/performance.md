@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 );
 ~~~~~~~
 
-[React's Strict Mode](https://bit.ly/3SufTxx) is a helper component which notifies developers in the case of something being wrong in our implementation. For example, using a [deprecated](https://bit.ly/3R8ycam) React API (e.g. using a legacy React hook) would give us a warning in the browser's developer tools. However, it also ensures that state and side-effects are implemented well by a developer. Let's experience what this means in our code.
+[React's Strict Mode](https://bit.ly/48TUA0k) is a helper component which notifies developers in the case of something being wrong in our implementation. For example, using a [deprecated](https://bit.ly/3R8ycam) React API (e.g. using a legacy React hook) would give us a warning in the browser's developer tools. However, it also ensures that state and side-effects are implemented well by a developer. Let's experience what this means in our code.
 
 The App component fetches initially data from a remote API which gets displayed as a list. We are using React's useEffect hook for initializing the data fetching. Now I encourage you to add a `console.log()` which logs whenever this hook runs:
 
@@ -338,8 +338,8 @@ Now, after we went through these scenarios for `useMemo`, `useCallback`, and `me
 
 ## Exercises:
 
-* Compare your source code against the author's [source code](https://bit.ly/3R2xISV).
-  * Recap all the [source code changes from this section](https://bit.ly/3R8BYk2).
+* Compare your source code against the author's [source code](https://bit.ly/3OaOkcy).
+  * Recap all the [source code changes from this section](https://bit.ly/3U7ckBs).
 * Read more about [React's useMemo Hook](https://www.robinwieruch.de/react-usememo-hook/).
 * Download *React Developer Tools* as an extension for your browser. Open it for your application in the browser via the browser's developer tools and try its various features. For example, you can use it to visualize React's component tree and its updating components.
 * Does the SearchForm re-render when removing an item from the List with the "Dismiss"-button? If it's the case, apply performance optimization techniques (using `useCallback` and `memo`) to prevent re-rendering.

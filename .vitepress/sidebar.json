@@ -34,10 +34,6 @@
         "link": "/manuscript/react-modern/jsx.md"
       },
       {
-        "text": "Linting with ESLint (Optional)",
-        "link": "/manuscript/react-modern/lint.md"
-      },
-      {
         "text": "Lists in React",
         "link": "/manuscript/react-modern/lists.md"
       },
@@ -162,24 +158,6 @@
   {
     "text": "A Roadmap for React",
     "link": "/manuscript/react-roadmap/react-roadmap.md"
-  },
-  {
-    "text": "React's Legacy",
-    "link": "/manuscript/react-legacy/react-legacy.md",
-    "items": [
-      {
-        "text": "React Class Components",
-        "link": "/manuscript/react-legacy/class-components.md"
-      },
-      {
-        "text": "React Class Components: State",
-        "link": "/manuscript/react-legacy/class-components-sate.md"
-      },
-      {
-        "text": "Imperative React",
-        "link": "/manuscript/react-legacy/imperative-react.md"
-      }
-    ]
   },
   {
     "text": "Styling in React",
