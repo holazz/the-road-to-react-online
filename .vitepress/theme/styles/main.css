@@ -6,7 +6,8 @@ html:not(.dark) .vp-doc img {
   background-color: #fff;
 }
 
-.VPNav a.title {
+.VPNav a.title,
+.VPNav a.title > span {
   pointer-events: none;
 }
 
