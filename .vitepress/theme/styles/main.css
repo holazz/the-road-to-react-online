@@ -9,3 +9,13 @@ html:not(.dark) .vp-doc img {
 .VPNav a.title {
   pointer-events: none;
 }
+
+.vp-doc [class*='language-'] > button.copy {
+  border: none;
+}
+
+.vp-doc [class*='language-'] > button.copy.copied::before,
+.vp-doc [class*='language-'] > button.copy:hover.copied::before {
+  top: 0;
+  border: none;
+}

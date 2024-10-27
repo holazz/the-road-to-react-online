@@ -2,7 +2,7 @@
  * Colors Base
  * -------------------------------------------------------------------------- */
 
-:root {
+ :root {
   --vp-c-blue: rgb(8, 126, 164);
   --vp-c-blue-light: #3597BD;
   --vp-c-blue-lighter: #53B0D6;
@@ -11,6 +11,11 @@
   --vp-c-blue-dimm-1: rgba(8, 126, 164, 0.5);
   --vp-c-blue-dimm-2: rgba(8, 126, 164, 0.25);
   --vp-c-blue-dimm-3: rgba(8, 126, 164, 0.05);
+  --vp-code-block-bg: #292d3e;
+  --vp-code-line-highlight-color: rgba(0, 0, 0, .5);
+  --vp-code-copy-code-hover-bg: rgba(255, 255, 255, .05);
+  --vp-code-copy-code-active-text: rgba(235, 235, 235, .6);
+  --vp-code-lang-color: rgba(235, 235, 235, .38);
 }
 
 /**
@@ -18,9 +23,14 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-c-brand: var(--vp-c-blue);
+  --vp-c-brand-1: var(--vp-c-blue);
   --vp-c-brand-light: var(--vp-c-blue-light);
   --vp-c-brand-lighter: var(--vp-c-blue-lighter);
-  --vp-c-brand-dark: var(--vp-c-blue-dark);
+  --vp-c-brand-2: var(--vp-c-blue-dark);
   --vp-c-brand-darker: var(--vp-c-blue-darker);
+  --vp-code-copy-code-bg: var(--vp-code-block-bg);
+}
+
+.dark {
+  --vp-code-block-bg: #1a1a1a;
 }
