@@ -116,8 +116,7 @@ If necessary, read more about [JavaScript Object Initializers](https://mzl.la/2X
 
 ## Exercises:
 
-* Compare your source code against the author's [source code](https://bit.ly/3S3Do1C).
-  * Recap all the [source code changes from this section](https://bit.ly/490Eimw).
+* Compare your source code against the author's [source code](https://tinyurl.com/y96a9sha).
+  * Recap all the [source code changes](https://tinyurl.com/529w99nz) from this section.
 * Consider the drawback of keeping the sort state in the List instead of the App component. If you don't know, sort the list by "Title" and search for other stories afterward. What would be different if the sort state would be in the App component.
 * Use your styling skills to give the user feedback about the current active sort and its reverse state. It could be an arrow up or arrow down SVG next to each active sort button.
-* Optional: [Leave feedback for this section](https://forms.gle/ZoJSHFJf2swcBHXM6).

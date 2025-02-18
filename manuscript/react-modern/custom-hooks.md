@@ -140,11 +140,10 @@ You've just created your first custom hook. If you're not comfortable with custo
 
 ## Exercises:
 
-* Compare your source code against the author's [source code](https://bit.ly/3vC6zkJ).
-  * Recap all the [source code changes from this section](https://bit.ly/4aYZjjc).
+* Compare your source code against the author's [source code](https://tinyurl.com/2j4adp2f).
+  * Recap all the [source code changes](https://tinyurl.com/3y9sy3b7) from this section.
   * Optional: If you are using TypeScript, check out the author's source code [here](https://bit.ly/485dY9K).
 * Read more about [React Hooks](https://www.robinwieruch.de/react-hooks/) and [custom React Hooks](https://www.robinwieruch.de/react-custom-hook/) to get a good understanding of them, because they are the bread and butter in React function components.
-* Optional: [Leave feedback for this section](https://forms.gle/5seN1Rv3ZwXmWmDR9).
 
 ## Interview Questions:
 

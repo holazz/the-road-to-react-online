@@ -122,10 +122,9 @@ Before the `searchTerm` was used for two cases: updating the input field's state
 
 ## Exercises:
 
-* Compare your source code against the author's [source code](https://bit.ly/3Soxdqc).
-  * Recap all the [source code changes from this section](https://bit.ly/3S3vJAo).
+* Compare your source code against the author's [source code](https://tinyurl.com/8k7fmj6p).
+  * Recap all the [source code changes](https://tinyurl.com/4we2j96f) from this section.
   * Optional: If you are using TypeScript, check out the author's source code [here](https://bit.ly/42tCHUa).
-* Optional: [Leave feedback for this section](https://forms.gle/HuJDuVNZmEDbhGzU9).
 
 ## Interview Questions:
 

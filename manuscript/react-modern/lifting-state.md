@@ -150,11 +150,10 @@ After all, knowing where to instantiate state in React turns out to be an import
 
 ## Exercises:
 
-* Compare your source code against the author's [source code](https://bit.ly/48U6Rlq).
-  * Recap all the [source code changes from this section](https://bit.ly/3U3Fhhh).
+* Compare your source code against the author's [source code](https://tinyurl.com/5n77yypj).
+  * Recap all the [source code changes](https://tinyurl.com/3brrw4d6) from this section.
   * Optional: If you are using TypeScript, check out the author's source code [here](https://bit.ly/49k1Cf9).
 * Read more about [lifting state in React](https://www.robinwieruch.de/react-lift-state/).
-* Optional: [Leave feedback for this section](https://forms.gle/EqJGjxCM1Xzw9S6g7).
 
 ## Interview Questions:
 

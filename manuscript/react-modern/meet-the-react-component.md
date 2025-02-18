@@ -1,6 +1,6 @@
 # Meet the React Component
 
-Every React application is built on the foundation of **React components**. In this section, you will get to know your first React component which is located in the *src/App.jsx* file and which should look similar to the example below. Depending on your Vite version, the content of the file might differ slightly:
+Every React application is built on the foundation of **React components**. In this section, you will be introduced to your first React component, which is located in the *src/App.jsx* file. It should look similar to the example below. Depending on your Vite version, the content of the file may differ slightly:
 
 {title="src/App.jsx",lang="javascript"}
 ~~~~~~~
@@ -15,10 +15,10 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
+        <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
+        <a href="https://react.dev" target="_blank">
           <img
             src={reactLogo}
             className="logo react"
@@ -133,7 +133,7 @@ On your journey as a React developer, and in this learning experience, you will 
 
 ## Exercises:
 
-* Compare your source code against the author's [source code](https://bit.ly/490FAxX).
+* Compare your source code against the author's [source code](https://tinyurl.com/43uekprv).
+  * Recap all the [source code changes](https://tinyurl.com/n3wujpmu) from this section.
   * Optional: If you are using TypeScript, check out the author's source code [here](https://bit.ly/3OvfqLO).
 * Think about ways to display the `title` variable in your App component's returned HTML. In the next section, we'll put this variable to use.
-* Optional: [Leave feedback for this section](https://forms.gle/VYiZqqjzXGE11wCv6).

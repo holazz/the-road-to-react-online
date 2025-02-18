@@ -6,15 +6,15 @@ Open the *src/main.jsx* file to the see App components instantiation with the `<
 
 {title="src/main.jsx",lang="javascript"}
 ~~~~~~~
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App.jsx';
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
 import './index.css';
+import App from './App.jsx';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
     <App />
-  </React.StrictMode>
+  </StrictMode>
 );
 ~~~~~~~
 
@@ -24,9 +24,11 @@ In the JavaScript file, the  `createRoot()` method expects the HTML element that
 
 {title="Code Playground",lang="javascript"}
 ~~~~~~~
+import { createRoot } from 'react-dom/client';
+
 const title = 'React';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('root')).render(
   <h1>Hello {title}</h1>
 );
 ~~~~~~~
@@ -39,4 +41,3 @@ Anyway, do you recall the introduction about the rise of single-page application
 
 * Read more about [React's createRoot](https://bit.ly/3vx3uT2).
 * Read more about [React's StrictMode](https://bit.ly/48TUA0k).
-* Optional: [Leave feedback for this section](https://forms.gle/zSqHUhmsuQ35vqoj9).

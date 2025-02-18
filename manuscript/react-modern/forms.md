@@ -128,13 +128,12 @@ Forms aren't much different in React than in plain HTML. When we have input fiel
 
 ## Exercises:
 
-* Compare your source code against the author's [source code](https://bit.ly/3u4ZHfi).
-  * Recap all the [source code changes from this section](https://bit.ly/3SpINjZ).
+* Compare your source code against the author's [source code](https://tinyurl.com/mra85b3s).
+  * Recap all the [source code changes](https://tinyurl.com/3ecdcpje) from this section.
   * Optional: If you are using TypeScript, check out the author's source code [here](https://bit.ly/42qnJ18).
 * Read more about [forms in React](https://www.robinwieruch.de/react-form/).
 * Try what happens without using `preventDefault`.
   * Read more about [preventDefault for events in React](https://www.robinwieruch.de/react-preventdefault/).
-* Optional: [Leave feedback for this section](https://forms.gle/d14Mf7WzetP25jxq5).
 
 ## Interview Questions:
 
@@ -154,3 +153,66 @@ Forms aren't much different in React than in plain HTML. When we have input fiel
   * Answers: Use the name attribute on each input field and access the corresponding value using event.target.name in the onChange handler.
 * Questions: What is the role of the onSubmit event in React forms?
   * Answers: The onSubmit event is triggered when the form is submitted. It's where you handle form validation, data processing, or any other actions related to the form submission.
+
+# Forms with Actions
+
+React forms are a powerful tool to submit data. In the previous section, we introduced a form to submit a search term to fetch data from an API. We used the `onSubmit` event handler to trigger the data fetching process. In this section, we'll introduce a new concept to the form: the `action` attribute. The `action` attribute is a standard HTML attribute that specifies the URL where the form data should be submitted. When using React, you can pass in an action function to the form component, which will be executed when the form is submitted:
+
+{title="src/App.jsx",lang="javascript"}
+~~~~~~~
+# leanpub-start-insert
+const SearchForm = ({ searchTerm, onSearchInput, searchAction }) => (
+  <form action={searchAction}>
+# leanpub-end-insert
+    <InputWithLabel
+      id="search"
+      value={searchTerm}
+      isFocused
+      onInputChange={onSearchInput}
+    >
+      <strong>Search:</strong>
+    </InputWithLabel>
+
+    <button type="submit" disabled={!searchTerm}>
+      Submit
+    </button>
+  </form>
+);
+~~~~~~~
+
+Instead of passing the submit handler to the form's `onSubmit` attribute, we pass a new `searchAction` function to the form's `action` attribute:
+
+{title="src/App.jsx",lang="javascript"}
+~~~~~~~
+<SearchForm
+  searchTerm={searchTerm}
+  onSearchInput={handleSearchInput}
+# leanpub-start-insert
+  searchAction={searchAction}
+# leanpub-end-insert
+/>
+~~~~~~~
+
+Since we are closer to the native form behavior, we can remove the `preventDefault()` call from the submit handler:
+
+{title="src/App.jsx",lang="javascript"}
+~~~~~~~
+# leanpub-start-insert
+const searchAction = () => {
+# leanpub-end-insert
+  setUrl(`${API_ENDPOINT}${searchTerm}`);
+
+# leanpub-start-insert
+  // event.preventDefault(); <--- we don't need this anymore
+# leanpub-end-insert
+};
+~~~~~~~
+
+Moving forward with React 19, the `action` attribute will be used over the `onSubmit` attribute to submit form data, because it takes more advantage of the native form behavior. Optionally the form action's function signature would give you access to the [form data](https://tinyurl.com/bddjd59s), which can be useful for form validation or other form-related tasks.
+
+## Exercises:
+
+* Compare your source code against the author's [source code](https://tinyurl.com/4nchwt46).
+  * Recap all the [source code changes](https://tinyurl.com/2vnwf7ty) from this section.
+* Read more about [React and FormData](https://www.robinwieruch.de/react-form-data/).
+* Read more about [Forms and their Loading State](https://www.robinwieruch.de/react-form-loading-pending-action/).

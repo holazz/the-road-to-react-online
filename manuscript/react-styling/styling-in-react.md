@@ -14,18 +14,17 @@ The following styling approaches and SVGs are mostly pre-configured in Vite. If 
 
 {title="src/main.jsx",lang="javascript"}
 ~~~~~~~
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
 # leanpub-start-insert
 import './index.css';
 # leanpub-end-insert
+import App from './App.jsx';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
     <App />
-  </React.StrictMode>
+  </StrictMode>
 );
 ~~~~~~~
 
@@ -47,7 +46,7 @@ Essentially you can declare all the CSS that should apply globally for your proj
 
 ### Exercises:
 
-* Compare your source code against the author's [source code](https://bit.ly/3xLnIXI).
-  * Recap all the [source code changes from this section](https://bit.ly/3f2gJ5U).
+* Compare your source code against the author's [source code](https://tinyurl.com/38kw8tkn).
+  * Recap all the [source code changes](https://tinyurl.com/mr2fc836) from this section.
 * Read more about [the different styling strategies and approaches in React](https://www.robinwieruch.de/react-css-styling/).
 

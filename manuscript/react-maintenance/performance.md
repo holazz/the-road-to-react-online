@@ -8,10 +8,10 @@ Before we can learn about performance in React, we will briefly look at React's 
 
 {title="src/main.jsx",lang="javascript"}
 ~~~~~~~
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
     <App />
-  </React.StrictMode>
+  </StrictMode>
 );
 ~~~~~~~
 
@@ -19,7 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 The App component fetches initially data from a remote API which gets displayed as a list. We are using React's useEffect hook for initializing the data fetching. Now I encourage you to add a `console.log()` which logs whenever this hook runs:
 
-{title="src/main.jsx",lang="javascript"}
+{title="src/App.jsx",lang="javascript"}
 ~~~~~~~
 const App = () => {
   ...
@@ -45,9 +45,7 @@ For the following performance sections, I encourage you to disable the Strict Mo
 
 {title="src/main.jsx",lang="javascript"}
 ~~~~~~~
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <App />
-);
+createRoot(document.getElementById('root')).render(<App />);
 ~~~~~~~
 
 However, at the end of the performance sections, I encourage you to add the Strict Mode back again, because it is there to help you after all.
@@ -338,11 +336,10 @@ Now, after we went through these scenarios for `useMemo`, `useCallback`, and `me
 
 ## Exercises:
 
-* Compare your source code against the author's [source code](https://bit.ly/3OaOkcy).
-  * Recap all the [source code changes from this section](https://bit.ly/3U7ckBs).
+* Compare your source code against the author's [source code](https://tinyurl.com/yz2jhjka).
+  * Recap all the [source code changes](https://tinyurl.com/3423xu4v) from this section.
 * Read more about [React's useMemo Hook](https://www.robinwieruch.de/react-usememo-hook/).
 * Download *React Developer Tools* as an extension for your browser. Open it for your application in the browser via the browser's developer tools and try its various features. For example, you can use it to visualize React's component tree and its updating components.
 * Does the SearchForm re-render when removing an item from the List with the "Dismiss"-button? If it's the case, apply performance optimization techniques (using `useCallback` and `memo`) to prevent re-rendering.
 * Does each Item re-render when removing an item from the List with the "Dismiss"-button? If it's the case, apply performance optimization techniques to prevent re-rendering.
 * Remove all performance optimizations to keep the application simple. Our current application doesn't suffer from any performance bottlenecks. Try to avoid [premature optimzations](https://bit.ly/3AYktL8). Use this section and its further reading material as a reference, in case you run into performance problems.
-* Optional: [Leave feedback for this section](https://forms.gle/FwNrJSdLikquVzsB6).

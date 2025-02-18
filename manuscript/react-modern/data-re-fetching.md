@@ -112,10 +112,9 @@ Note: However, re-fetching data with every keystroke isn't optimal, as this impl
 
 ## Exercises:
 
-* Compare your source code against the author's [source code](https://bit.ly/3vF23lz).
-  * Recap all the [source code changes from this section](https://bit.ly/3U4PB8Q).
+* Compare your source code against the author's [source code](https://tinyurl.com/49maj6rm).
+  * Recap all the [source code changes](https://tinyurl.com/ysk8cdpw) from this section.
   * Optional: If you are using TypeScript, check out the author's source code [here](https://bit.ly/492rkVN).
-* Optional: [Leave feedback for this section](https://forms.gle/ywE4bFy6D2HSG8Rd7).
 
 ## Interview Questions:
 

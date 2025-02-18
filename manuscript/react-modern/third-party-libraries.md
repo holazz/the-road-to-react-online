@@ -58,12 +58,11 @@ In this code, we call axios `axios.get()` for an explicit [HTTP GET request](htt
 
 ## Exercises:
 
-* Compare your source code against the author's [source code](https://bit.ly/3O8sXbU).
-  * Recap all the [source code changes from this section](https://bit.ly/3vHe3mC).
+* Compare your source code against the author's [source code](https://tinyurl.com/34bm9s62).
+  * Recap all the [source code changes](https://tinyurl.com/3hvu5r85) from this section.
   * Optional: If you are using TypeScript, check out the author's source code [here](https://bit.ly/3Ss6Yyb).
 * Read more about [popular libraries in React](https://www.robinwieruch.de/react-libraries/).
 * Optional: Read more about [axios](https://bit.ly/3jjEupg).
-* Optional: [Leave feedback for this section](https://forms.gle/wfDb7r5K4az3TiWN9).
 
 ## Interview Questions:
 

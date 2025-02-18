@@ -16,7 +16,7 @@ const App = () => {
       <SearchForm
         searchTerm={searchTerm}
         onSearchInput={handleSearchInput}
-        onSearchSubmit={handleSearchSubmit}
+        searchAction={searchAction}
       />
 
       {stories.isError && <p>Something went wrong ...</p>}
@@ -37,7 +37,6 @@ The `<hr />` was removed because the CSS handles the border in the next steps. W
 ~~~~~~~
 import * as React from 'react';
 import axios from 'axios';
-
 # leanpub-start-insert
 import './App.css';
 # leanpub-end-insert
@@ -153,7 +152,7 @@ Apart from styling approaches in React, naming conventions ([CSS guidelines](htt
 ~~~~~~~
 const SearchForm = ({ ... }) => (
 # leanpub-start-insert
-  <form onSubmit={onSearchSubmit} className="search-form">
+  <form action={searchAction} className="search-form">
 # leanpub-end-insert
     <InputWithLabel ... >
       <strong>Search:</strong>
@@ -232,7 +231,6 @@ For simplicity, we styled elements like label and input individually in the *src
 
 ## Exercises:
 
-* Compare your source code against the author's [source code](https://bit.ly/4b3Lik9).
-  * Recap all the [source code changes from this section](https://bit.ly/4b4wdiA).
+* Compare your source code against the author's [source code](https://tinyurl.com/3uncn45p).
+  * Recap all the [source code changes](https://tinyurl.com/2588rxvc) from this section.
 * Try to pass `className` prop from App to SearchForm component, either with the value `button_small` or `button_large`, and use this as `className` for the button element.
-* Optional: [Leave feedback for this section](https://forms.gle/RovYbjYF9McD1h6c7).
